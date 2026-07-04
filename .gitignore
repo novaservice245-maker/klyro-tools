@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Klyor runtime & config
+klyor/data/.launched
+klyor/data/cache.json
+klyor/data/exports/
+klyor/data/logs/
+klyor/config/settings.json
+klyor/config/*.local
+klyor/runtime/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build
+dist/
+build/
+*.egg-info/
